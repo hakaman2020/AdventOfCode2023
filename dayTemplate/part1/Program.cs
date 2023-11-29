@@ -9,3 +9,13 @@ foreach(var line in lines){
     Console.WriteLine(line);
 }
 
+Console.WriteLine($"Task1 : {Task1()}");
+Console.WriteLine($"Task2 : {Task2()}");
+
+int Task1(){
+    return -1;
+}
+
+int Task2(){
+    return -1;
+}
