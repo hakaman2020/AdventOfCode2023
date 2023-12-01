@@ -3,6 +3,11 @@
 ##
 ## Get latest from `dotnet new gitignore`
 
+# example and input files advent of code
+example.txt
+example2.txt
+input.txt
+
 # dotenv files
 .env
 
