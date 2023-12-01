@@ -1,7 +1,6 @@
 ﻿using AoC.Input;
 
 const string inputFile = "./example.txt";
-const string inputFile = "./example2.txt";
 // const string inputFile = "./input.txt";
 
 var lines = Input.ReturnLinesFromInput(inputFile);
