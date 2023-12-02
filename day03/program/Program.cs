@@ -1,14 +1,10 @@
 ﻿using AoC.Input;
 
 const string inputFile = "./example.txt";
-const string inputFile = "./example2.txt";
 // const string inputFile = "./input.txt";
+// const string inputFile = "./example2.txt";
 
 var lines = Input.ReturnLinesFromInput(inputFile);
-
-foreach(var line in lines){
-    Console.WriteLine(line);
-}
 
 Console.WriteLine($"Task1 : {Task1(lines)}");
 Console.WriteLine($"Task2 : {Task2(lines)}");
